@@ -1,0 +1,22 @@
+{
+  "name": "CFKit",
+  "version": "0.1.0",
+  "summary": "A short description of CFKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Guhuotaren/CFKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Guhuotaren": "317642637@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Guhuotaren/CFKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CFKit/Classes/**/*"
+}
