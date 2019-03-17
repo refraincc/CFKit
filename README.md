@@ -22,8 +22,10 @@ pod 'CFKit'
 
 ## Author
 
-Guhuotaren, 317642637@qq.com
+refraincc、zyf
 
 ## License
 
 CFKit is available under the MIT license. See the LICENSE file for more info.
+
+
