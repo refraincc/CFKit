@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of CFKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Guhuotaren/CFKit",
+  "homepage": "https://github.com/refraincc/CFKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Guhuotaren": "317642637@qq.com"
+    "refraincc": "317642637@qq.com"
   },
   "source": {
-    "git": "https://github.com/Guhuotaren/CFKit.git",
+    "git": "https://github.com/refraincc/CFKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
