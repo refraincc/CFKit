@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CFPopView.h"
 
 FOUNDATION_EXPORT double CFKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CFKitVersionString[];
