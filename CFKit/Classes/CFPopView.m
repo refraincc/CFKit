@@ -40,6 +40,15 @@
     return self;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        
+        [self setupSubViews];
+        
+    }
+    return self;
+}
+
 - (instancetype)initWithCoder:(NSCoder *)aDecoder{
     if (self = [super initWithCoder:aDecoder]) {
         
@@ -48,6 +57,7 @@
     }
     return self;
 }
+
 
 - (void)initUI{
     
@@ -63,7 +73,15 @@
     self.textAlignment = NSTextAlignmentCenter;
     
     self.offset = 0.5;
+    
+    self.label.font = self.font;
+    
+    self.label.textColor = self.textColor;
+    
+    self.label.textAlignment = self.textAlignment;
+    
 }
+
 
 
 - (void)setupSubViews{
