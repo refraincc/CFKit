@@ -1,27 +1,16 @@
 PODS:
-  - CFKit (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - CFKit (0.1.1)
 
 DEPENDENCIES:
   - CFKit (from `../`)
-  - FBSnapshotTestCase
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   CFKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CFKit: bded736ecdc4da599574a73c72015e67e1131054
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  CFKit: 64e10bd4106dd6a02f872019d40e1af47188b17e
 
-PODFILE CHECKSUM: 9be367387b18609605c5fe3ea429b1e360af90b6
+PODFILE CHECKSUM: f070db445946078844848a560448d76371fbdc02
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.1
