@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "UIColor+Core.h"
+#import "UIDevice+Core.h"
+#import "UIFont+Core.h"
+#import "UIView+Core.h"
+#import "UIViewController+Core.h"
+#import "WKWebView+Core.h"
 #import "CFDumbView.h"
 #import "UIResponder+EventRoute.h"
 #import "BDMarqueeLabelView.h"
