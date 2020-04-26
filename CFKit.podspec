@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CFKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of CFKit.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/refraincc/CFKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'refraincc' => '317642637@qq.com' }
+  s.author           = { 'refraincc' => 'refrainc21@gmail.com' }
   s.source           = { :git => 'https://github.com/refraincc/CFKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -35,8 +35,8 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'CFKit' => ['CFKit/Assets/*.png']
   # }
-
+  # 全部功能
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Masonry', '1.1.0'
 end

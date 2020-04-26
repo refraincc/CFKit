@@ -1,6 +1,6 @@
 {
   "name": "CFKit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of CFKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/refraincc/CFKit",
@@ -9,14 +9,19 @@
     "file": "LICENSE"
   },
   "authors": {
-    "refraincc": "317642637@qq.com"
+    "refraincc": "refrainc21@gmail.com"
   },
   "source": {
     "git": "https://github.com/refraincc/CFKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CFKit/Classes/**/*"
+  "source_files": "CFKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+      "1.1.0"
+    ]
+  }
 }

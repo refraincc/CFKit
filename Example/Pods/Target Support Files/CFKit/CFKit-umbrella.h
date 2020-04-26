@@ -12,6 +12,7 @@
 
 #import "CFDumbView.h"
 #import "UIResponder+EventRoute.h"
+#import "BDMarqueeLabelView.h"
 #import "CFPopView.h"
 
 FOUNDATION_EXPORT double CFKitVersionNumber;

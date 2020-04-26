@@ -1,15 +1,22 @@
 PODS:
-  - CFKit (0.1.1)
+  - CFKit (0.1.2):
+    - Masonry (= 1.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CFKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   CFKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CFKit: 64e10bd4106dd6a02f872019d40e1af47188b17e
+  CFKit: 8c2e390681e492bc7a2690d8d03e169a3fb92975
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: f070db445946078844848a560448d76371fbdc02
 
