@@ -10,7 +10,7 @@
 #import <WKWebView+Core.h>
 
 
-typedef void (^completion)(NSString *content);
+typedef void (^completion)(NSString * _Nullable content);
 
 NS_ASSUME_NONNULL_BEGIN
 
