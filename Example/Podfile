@@ -4,6 +4,8 @@ platform :ios, '8.0'
 
 target 'CFKit_Example' do
   pod 'CFKit', :path => '../'
+  
+  pod 'LookinServer', :configurations => ['Debug']
 
   target 'CFKit_Tests' do
     inherit! :search_paths
