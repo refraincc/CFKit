@@ -54,7 +54,7 @@
 
 + (UIViewController *)findBestViewController:(UIViewController *)vc
 {
-    if (vc.presentedViewController) {
+   if (vc.presentedViewController) {
         // Return presented view controller
         return [self findBestViewController:vc.presentedViewController];
         
@@ -81,6 +81,8 @@
             return [self findBestViewController:svc.selectedViewController];
         else
             return vc;
+    }else if ([vc isKindOfClass:[UIAlertController class]]) {
+        return [self p_handleAlertTopViewController:vc.presentingViewController] ;
     } else {
         // Unknown view controller type, return last child view controller
         return vc;
