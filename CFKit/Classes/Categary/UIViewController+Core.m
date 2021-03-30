@@ -88,7 +88,19 @@
         return vc;
     }
 }
-
+//只给 上面的 UIAlertController调用
+//获取 UIAlertController 下面一层的vc
++ (UIViewController *)p_handleAlertTopViewController:(UIViewController *)vc {
+    if ([vc isKindOfClass:[UINavigationController class]]) {
+        return [self p_handleAlertTopViewController:[(UINavigationController *)vc topViewController]];
+    } else if ([vc isKindOfClass:[UITabBarController class]]) {
+        return [self p_handleAlertTopViewController:[(UITabBarController *)vc selectedViewController]];
+    } else if (vc.presentedViewController && ![vc.presentedViewController isKindOfClass:[UIAlertController class]]) {//这里要判断并且不是 UIAlertController
+        return [self p_handleAlertTopViewController:vc.presentedViewController];
+    }else {
+        return vc;
+    }
+}
 @end
 
 
